@@ -275,6 +275,38 @@ improvement there. Also, my sleep related factors (sleep balance and previous ni
 findings from my other queries */
 
 
+-- What is sleep like after high activity?
+
+WITH joined_data AS (SELECT 
+	a.day, 
+	a.score AS activity_score, 
+	a.active_calories, 
+	LEAD(s.score,1) OVER(ORDER BY a.day) AS sleep_score
+FROM daily_activity_data a
+LEFT JOIN daily_sleep_data s ON a.day = s.day)
+
+SELECT
+	ROUND(AVG(sleep_score),2) AS avg_score,
+	ROUND(STDDEV(sleep_score),2) AS std_score
+FROM joined_data
+
+UNION
+
+SELECT 
+	ROUND(AVG(sleep_score),2) AS avg_score,
+	ROUND(STDDEV(sleep_score),2) AS std_score
+FROM joined_data
+-- setting 850 as my threshold for high activity
+WHERE active_calories > 850
+
+"avg_score"	"std_score"
+69.26	5.96
+71.28	6.54
+
+/* I do seem to sleep slightly better when I have a day where I exert high activity. Being more highly active might help me
+sleep better */
+
+
 -- What is my average sleep the day after a good sleep score? The day after a bad one?
 
 SELECT 
@@ -395,38 +427,6 @@ ORDER BY streak_length DESC;
 6
 
 /* My longest streak was 9 and I've had 6 streaks of 5+ days */
-
-
--- What is sleep like after high activity?
-
-WITH joined_data AS (SELECT 
-	a.day, 
-	a.score AS activity_score, 
-	a.active_calories, 
-	LEAD(s.score,1) OVER(ORDER BY a.day) AS sleep_score
-FROM daily_activity_data a
-LEFT JOIN daily_sleep_data s ON a.day = s.day)
-
-SELECT
-	ROUND(AVG(sleep_score),2) AS avg_score,
-	ROUND(STDDEV(sleep_score),2) AS std_score
-FROM joined_data
-
-UNION
-
-SELECT 
-	ROUND(AVG(sleep_score),2) AS avg_score,
-	ROUND(STDDEV(sleep_score),2) AS std_score
-FROM joined_data
--- setting 850 as my threshold for high activity
-WHERE active_calories > 850
-
-"avg_score"	"std_score"
-69.26	5.96
-71.28	6.54
-
-/* I do seem to sleep slightly better when I have a day where I exert high activity. Being more highly active might help me
-sleep better */
 
 
 -- Average time I go to sleep and wake up at?
