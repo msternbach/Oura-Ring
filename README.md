@@ -12,10 +12,10 @@ Find trends and patterns from my sleep over the past year, and then make actiona
 ## Data Collection:
 Using a jupyter notebook, I extracted the data using my Oura Ring API key, and ended up with four CSV files:
 
--Daily_sleep_data
--Daily_readiness_data
--Daily_activity_data
--Sleep_data
+- Daily_sleep_data
+- Daily_readiness_data
+- Daily_activity_data
+- Sleep_data
 
 Daily_sleep_data contains data of the sleep score and sleep contributors for each day. Daily_readiness_data is the same thing except readiness score and readiness contributors. Daily_activity_data contains data on various activity metrics for each day, and Sleep_data contains sleep metrics for each day.
 
