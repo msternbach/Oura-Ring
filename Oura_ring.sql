@@ -270,6 +270,16 @@ SELECT
 FROM contributors_list
 GROUP BY contributor;
 
+"contributor"	"score_0_to_20"	"score_21_to_40"	"score_41_to_60"	"score_61_to_80"	"score_81_to_100"
+"previous_day_activity"	1.65	1.37	3.30	27.47	63.19
+"activity_balance"	0.00	0.00	6.59	26.37	65.11
+"hrv_balance"	1.65	3.85	12.09	20.05	60.16
+"recovery_index"	0.55	1.37	2.20	12.09	83.79
+"previous_night"	0.00	0.27	12.36	78.02	9.34
+"sleep_balance"	0.00	0.00	1.65	62.91	33.24
+"body_temperature"	0.00	0.00	0.00	2.20	97.80
+"resting_heart_rate"	0.27	1.65	8.79	19.78	69.51
+
 /* There isn't any clear readiness contributor that I struggle with the most. Every single one has at least 80% of their values in the 4th and 5th quintile. HRV_balance has about 18% of its values in the lower three quintiles so there is area for
 improvement there. Also, my sleep related factors (sleep balance and previous night) are the only two factors without 60% of their values in the 5th quintile. The only way to improve those factors is to improve my sleep which I can do my addressing the
 findings from my other queries */
