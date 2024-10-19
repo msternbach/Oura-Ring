@@ -110,6 +110,10 @@ What readiness contributors do I struggle with the most?
 
 
 What is sleep like after high activity?
+| Activity Type | Avg Score | Std Score |
+|---------------|-----------|-----------|
+| Low Activity  | 69.26     | 5.96      |
+| High Activity | 71.28     | 6.54      |
 
 
 ### Sleep Streaks:
@@ -123,18 +127,47 @@ What is my average sleep the day after a good sleep score? The day after a bad o
 
 
 Longest streak of good sleep scores?
+| Streak Length |
+|---------------|
+| 11            |
+| 7             |
+| 6             |
+| 6             |
+| 5             |
+| 5             |
+| 5             |
+| 5             |
 
 
 Longest streak of good readiness scores?
+| Streak Length |
+|---------------|
+| 9             |
+| 8             |
+| 7             |
+| 6             |
+| 6             |
+| 6             |
 
 
 ### Timing and Sleep:
 
 
 Average time I go to sleep and wake up at?
+| Bedtime Start        | Bedtime End          |
+|----------------------|----------------------|
+| 12:13:44.316804      | 08:54:32.278237      |
 
 
 Sleep Score based on what time I went to bed?
+| Bedtime Hour | Count | Bedtime End      | Avg Sleep Score | Std Sleep Score | Avg Duration |
+|--------------|-------|------------------|-----------------|-----------------|--------------|
+| 22           | 28    | 07:49:39.964286  | 75.39           | 5.70            | 7.14         |
+| 23           | 114   | 08:24:56.938596  | 71.46           | 5.01            | 6.91         |
+| 0            | 161   | 09:07:16.15528   | 68.59           | 4.88            | 6.75         |
+| 1            | 49    | 09:33:21.122449  | 64.61           | 5.73            | 6.41         |
+| 2            | 9     | 10:05:57.333333  | 63.67           | 6.00            | 6.22         |
+| 3            | 4     | 11:30:38.5       | 61.25           | 7.76            | 6.25         |
 
 
 
