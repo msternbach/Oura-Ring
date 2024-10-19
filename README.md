@@ -44,21 +44,66 @@ What month did I have the best average readiness score? The worst?
 | 6     | 75.83               | 6.77                |
 
 What month did I have the best average sleep score? The worst?
+| Month | Avg Sleep Score | Std Sleep Score |
+|-------|-----------------|-----------------|
+| 6     | 71.50           | 6.97            |
+| 8     | 70.84           | 4.79            |
+| 5     | 70.77           | 8.34            |
+| 3     | 70.35           | 4.97            |
+| 7     | 69.77           | 4.60            |
+| 4     | 69.15           | 4.72            |
+| 2     | 68.93           | 7.01            |
+| 10    | 68.55           | 5.25            |
+| 11    | 68.23           | 4.61            |
+| 1     | 67.90           | 6.55            |
+| 9     | 67.83           | 5.90            |
+| 12    | 67.55           | 5.64            |
 
 
 
 What day of the week do I get the best sleep? 
+| Day of Week | Avg Sleep Score | Std Sleep Score | Avg Readiness Score | Std Readiness Score |
+|-------------|-----------------|-----------------|---------------------|---------------------|
+| Tuesday     | 70.56           | 5.63            | 81.29               | 4.77                |
+| Monday      | 70.54           | 4.88            | 81.79               | 5.44                |
+| Saturday    | 69.89           | 6.51            | 79.89               | 6.69                |
+| Wednesday   | 69.17           | 5.55            | 81.44               | 5.18                |
+| Thursday    | 68.67           | 5.82            | 80.50               | 6.30                |
+| Friday      | 68.20           | 5.00            | 79.37               | 6.14                |
+| Sunday      | 67.92           | 7.46            | 80.87               | 5.91                |
 
 
 ### What Contributors Affected my Sleep the Most:
 
 
 What sleep factors do I normally score highest on? Lowest?
+| Contributor     | Avg   | Min  | Max  |
+|-----------------|-------|------|------|
+| Latency         | 84.39 | 22.00| 99.00|
+| Timing          | 56.72 | 1.00 | 100.00|
+| Deep Sleep      | 66.73 | 21.00| 98.00|
+| REM Sleep       | 66.74 | 28.00| 97.00|
+| Efficiency      | 80.23 | 46.00| 96.00|
+| Total Sleep     | 73.86 | 31.00| 96.00|
+| Sleep Score     | 69.28 | 44.00| 85.00|
+| Restfulness     | 53.07 | 21.00| 82.00|
+
 
 What sleep contributors do I struggle with the most?
 
 
 What readiness factors do I normally score highest on? Lowest?
+| Contributor           | Avg   | Min  | Max  |
+|-----------------------|-------|------|------|
+| Previous Day Activity  | 79.57 | 1.00 | 99.00|
+| Activity Balance       | 82.69 | 44.00| 100.00|
+| HRV Balance            | 79.12 | 1.00 | 100.00|
+| Recovery Index         | 91.75 | 1.00 | 100.00|
+| Previous Night         | 69.71 | 39.00| 92.00|
+| Sleep Balance          | 76.81 | 47.00| 98.00|
+| Body Temperature       | 97.57 | 66.00| 100.00|
+| Readiness Score        | 80.76 | 56.00| 91.00|
+| Resting Heart Rate     | 85.00 | 10.00| 100.00|
 
 
 What readiness contributors do I struggle with the most?
@@ -71,6 +116,10 @@ What is sleep like after high activity?
 
 
 What is my average sleep the day after a good sleep score? The day after a bad one?
+| Sleep Quality | Avg Score | Std Score |
+|---------------|-----------|-----------|
+| Good Sleep    | 70.01     | 5.34      |
+| Bad Sleep     | 68.55     | 6.47      |
 
 
 Longest streak of good sleep scores?
