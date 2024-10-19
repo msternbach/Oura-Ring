@@ -40,6 +40,22 @@ What day of the week do I get the best sleep?
 
 What sleep factors do I normally score highest on? Lowest?
 
+| Month | Avg Readiness Score | Std Readiness Score |
+|-------|---------------------|---------------------|
+| 3     | 84.19               | 4.72                |
+| 10    | 83.62               | 3.97                |
+| 11    | 83.40               | 3.51                |
+| 12    | 83.00               | 4.76                |
+| 7     | 82.37               | 3.57                |
+| 5     | 81.13               | 8.19                |
+| 8     | 80.29               | 4.91                |
+| 4     | 80.18               | 5.44                |
+| 1     | 79.48               | 6.38                |
+| 9     | 78.73               | 4.11                |
+| 2     | 76.41               | 4.72                |
+| 6     | 75.83               | 6.77                |
+
+
 
 What sleep contributors do I struggle with the most?
 
