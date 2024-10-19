@@ -24,6 +24,8 @@ I got the code for extracting the API data from [this repository](https://github
 
 ## Questions and Results:
 
+check out the code and analysis for each query [here](https://github.com/msternbach/Oura-Ring/blob/main/Oura_ring.sql)
+
 ### When did I Sleep the Best:
 
 What month did I have the best average readiness score? The worst?
@@ -90,6 +92,15 @@ What sleep factors do I normally score highest on? Lowest?
 
 
 What sleep contributors do I struggle with the most?
+| Contributor    | Score 0-20 | Score 21-40 | Score 41-60 | Score 61-80 | Score 81-100 |
+|----------------|------------|-------------|-------------|-------------|--------------|
+| Latency        | 0.00       | 0.55        | 3.85        | 21.43       | 74.18        |
+| Timing         | 4.67       | 20.05       | 30.22       | 29.40       | 15.66        |
+| Deep Sleep     | 0.00       | 8.52        | 27.47       | 38.74       | 25.27        |
+| REM Sleep      | 0.00       | 3.85        | 31.04       | 45.33       | 19.78        |
+| Efficiency     | 0.00       | 0.00        | 1.92        | 43.13       | 54.95        |
+| Total Sleep    | 0.00       | 0.55        | 6.59        | 73.08       | 19.78        |
+| Restfulness    | 0.00       | 15.93       | 58.52       | 25.27       | 0.27         |
 
 
 What readiness factors do I normally score highest on? Lowest?
@@ -107,6 +118,16 @@ What readiness factors do I normally score highest on? Lowest?
 
 
 What readiness contributors do I struggle with the most?
+| Contributor           | Score 0-20 | Score 21-40 | Score 41-60 | Score 61-80 | Score 81-100 |
+|-----------------------|------------|-------------|-------------|-------------|--------------|
+| Previous Day Activity  | 1.65       | 1.37        | 3.30        | 27.47       | 63.19        |
+| Activity Balance       | 0.00       | 0.00        | 6.59        | 26.37       | 65.11        |
+| HRV Balance            | 1.65       | 3.85        | 12.09       | 20.05       | 60.16        |
+| Recovery Index         | 0.55       | 1.37        | 2.20        | 12.09       | 83.79        |
+| Previous Night         | 0.00       | 0.27        | 12.36       | 78.02       | 9.34         |
+| Sleep Balance          | 0.00       | 0.00        | 1.65        | 62.91       | 33.24        |
+| Body Temperature       | 0.00       | 0.00        | 0.00        | 2.20        | 97.80        |
+| Resting Heart Rate     | 0.27       | 1.65        | 8.79        | 19.78       | 69.51        |
 
 
 What is sleep like after high activity?
