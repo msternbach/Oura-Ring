@@ -7,10 +7,10 @@ While the ring provides helpful day-to-day feedback, I wanted to apply my data a
 
 
 ## Objective:
-	Find trends and patterns from my sleep over the past year, and then make actionable changes based on any weaknesses I found.
+Find trends and patterns from my sleep over the past year, and then make actionable changes based on any weaknesses I found.
 
 ## Data Collection:
-	Using a jupyter notebook, I extracted the data using my Oura Ring API key, and ended up with four CSV files:
+Using a jupyter notebook, I extracted the data using my Oura Ring API key, and ended up with four CSV files:
 
 -Daily_sleep_data
 -Daily_readiness_data
@@ -77,5 +77,5 @@ Sleep Score based on what time I went to bed?
 
 ## Analysis:
 
-	Before doing this project I knew that I had a lot of room for improvement when it came to my sleep, but now I know what areas to focus on. Timing is clearly a big weakness for me. I’m consistently scoring low on that metric, and the data shows that not only do I score better on my sleep when I go to sleep earlier, but I also sleep longer on average too. I need to get myself to start going to sleep between 10pm - 11pm consistently. Another area for improvement is restfulness. There isn’t as simple a quick fix for this as timing, so I will have to do some research into this. One possible cause for low restfulness is heavy meals close to sleep, so I need to monitor how much I’m eating for dinner and if I’m snacking at all after. Also, I need to be more conscious of my sleep patterns on days where I have lower scores on average such as Sunday night and Friday night. My goal is for my average sleep score to be relatively the same every night, so I need to identify variations in my days/nights that could be causing differences in scores. There are certainly other areas to improve upon, but this is a good start for now. I hope to see some improvements when I run these queries again a year from now.
+Before doing this project I knew that I had a lot of room for improvement when it came to my sleep, but now I know what areas to focus on. Timing is clearly a big weakness for me. I’m consistently scoring low on that metric, and the data shows that not only do I score better on my sleep when I go to sleep earlier, but I also sleep longer on average too. I need to get myself to start going to sleep between 10pm - 11pm consistently. Another area for improvement is restfulness. There isn’t as simple a quick fix for this as timing, so I will have to do some research into this. One possible cause for low restfulness is heavy meals close to sleep, so I need to monitor how much I’m eating for dinner and if I’m snacking at all after. Also, I need to be more conscious of my sleep patterns on days where I have lower scores on average such as Sunday night and Friday night. My goal is for my average sleep score to be relatively the same every night, so I need to identify variations in my days/nights that could be causing differences in scores. There are certainly other areas to improve upon, but this is a good start for now. I hope to see some improvements when I run these queries again a year from now.
 
