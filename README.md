@@ -28,18 +28,6 @@ I got the code for extracting the API data from [this repository](https://github
 
 What month did I have the best average readiness score? The worst?
 
-
-What month did I have the best average sleep score? The worst?
-
-
-What day of the week do I get the best sleep? 
-
-
-### What Contributors Affected my Sleep the Most:
-
-
-What sleep factors do I normally score highest on? Lowest?
-
 | Month | Avg Readiness Score | Std Readiness Score |
 |-------|---------------------|---------------------|
 | 3     | 84.19               | 4.72                |
@@ -55,7 +43,17 @@ What sleep factors do I normally score highest on? Lowest?
 | 2     | 76.41               | 4.72                |
 | 6     | 75.83               | 6.77                |
 
+What month did I have the best average sleep score? The worst?
 
+
+
+What day of the week do I get the best sleep? 
+
+
+### What Contributors Affected my Sleep the Most:
+
+
+What sleep factors do I normally score highest on? Lowest?
 
 What sleep contributors do I struggle with the most?
 
