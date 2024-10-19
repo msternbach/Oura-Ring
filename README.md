@@ -24,7 +24,7 @@ I got the code for extracting the API data from [this repository](https://github
 
 ## Questions and Results:
 
-check out the code and analysis for each query [here](https://github.com/msternbach/Oura-Ring/blob/main/Oura_ring.sql)
+Check out the code and analysis for each query [here](https://github.com/msternbach/Oura-Ring/blob/main/Oura_ring.sql).
 
 ### When did I Sleep the Best:
 
