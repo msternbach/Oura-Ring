@@ -3,7 +3,7 @@
 ## Introduction:
 The Oura ring is one of the leading fitness trackers for monitoring sleep, utilizing sensors to measure metrics such as heart rate variability (HRV), respiratory rate, and body temperature. I began using my Oura ring in October 2023 to improve my sleep quality and gain a better understanding of my sleep patterns.
 
-After a night's sleep, the Oura ring provides you with two main scores: sleep score and readiness score. The sleep score gives you a score from 1 - 100 based on how well you slept the previous night, and the readiness score gives you a 1 - 100 score based on how ready you are to take on the day. These scores are based on contributors that are also on a scale of 1 - 100.
+After a night's sleep, the Oura ring provides you with two main scores: sleep score and readiness score. The sleep score gives you a score from 1 - 100 based on how well you slept the previous night, and the readiness score gives you a 1 - 100 score based on how ready you are to take on the day. These scores are calculated on a few different contributors that are also on a scale of 1 - 100.
 
 While the ring provides helpful day-to-day feedback, I wanted to apply my data analytics skills to discover deeper trends and patterns within my sleep data from the past year. This analysis will guide me in making informed changes to improve my overall sleep performance.
 
