@@ -99,7 +99,7 @@ scores don't seem to have any correlation either way with the sleep scores inter
 | Timing          | 56.72 | 1.00 | 100.00|
 | Restfulness     | 53.07 | 21.00| 82.00|
 
-My highest average on sleep contributors is latency and efficiency. Timing and restfulness are the lowest. My max restfulness was only 82 while every other contributor has maxes of 95+, so restfulness seems like the clear biggest issue.
+My highest average on sleep contributors is latency (how long it takes to fall asleep) and efficiency. Timing and restfulness (how much you move during the night) are the lowest. My max restfulness was only 82 while every other contributor has maxes of 95+, so restfulness seems like the clear biggest issue.
 I've achieved scores of 95 or higher on every contributor, so if I can can improve my restfulness, it is possible for me to achieve a 95+ sleep score.
 
 #### What sleep contributors do I struggle with consistently?
