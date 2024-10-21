@@ -28,7 +28,7 @@ Check out the code and analysis for each query [here](https://github.com/msternb
 
 ### When did I Sleep the Best:
 
-What month did I have the best average readiness score? The worst?
+#### What month did I have the best average readiness score? The worst?
 
 | Month | Avg Readiness Score | Std Readiness Score |
 |-------|---------------------|---------------------|
@@ -45,9 +45,9 @@ What month did I have the best average readiness score? The worst?
 | 2     | 76.41               | 4.72                |
 | 6     | 75.83               | 6.77                |
 
-My best score was in March and worst was in June.
+My best average readiness score was in March and the other top scores were in the fall months. My worst score was in June. 
 
-What month did I have the best average sleep score? The worst?
+#### What month did I have the best average sleep score? The worst?
 | Month | Avg Sleep Score | Std Sleep Score |
 |-------|-----------------|-----------------|
 | 6     | 71.50           | 6.97            |
@@ -63,9 +63,12 @@ What month did I have the best average sleep score? The worst?
 | 9     | 67.83           | 5.90            |
 | 12    | 67.55           | 5.64            |
 
-My best score was in June and worst was in December.
+My best average sleep score was in June and the other top scores were around the Spring/Summer. My worst score was in December.
+Very interesting that my sleep and readiness scores seem to be inversely correlated with each other. The months with the best average readiness scores had the worst average sleep scores for the most part. Part of this could be that
+my readiness scores were boosted when I first got my Oura ring which was in October 2023. Another reason might be that I exert less energy in the winter, so I need less sleep to be ready for the day. I'll see if this trend continues the following year.
 
-What day of the week do I get the best sleep? 
+
+#### What day of the week do I get the best sleep? 
 | Day of Week | Avg Sleep Score | Std Sleep Score | Avg Readiness Score | Std Readiness Score |
 |-------------|-----------------|-----------------|---------------------|---------------------|
 | Tuesday     | 70.56           | 5.63            | 81.29               | 4.77                |
@@ -76,12 +79,13 @@ What day of the week do I get the best sleep?
 | Friday      | 68.20           | 5.00            | 79.37               | 6.14                |
 | Sunday      | 67.92           | 7.46            | 80.87               | 5.91                |
 
-I get my best sleep on Monday and Tuesday nights. My worst sleep comes on Sunday night.
+I score best at the beginning of the work week as Tuesday and Mondays are my two highest average scores. I have the worst sleep on average on Sunday night which is something I need to work on as I'd like to start my weeks with the best sleep. The readiness
+scores don't seem to have any correlation either way with the sleep scores interestingly. My goal is to have everyday of the week to have a similar average, so I need to make an extra effort to get good sleep on Sunday and Friday where my average scores are lowest.
 
 ### What Contributors Affected my Sleep the Most:
 
 
-What sleep factors do I normally score highest on? Lowest?
+#### What sleep factors do I normally score highest on? Lowest?
 | Contributor     | Avg   | Min  | Max  |
 |-----------------|-------|------|------|
 | Latency         | 84.39 | 22.00| 99.00|
@@ -93,9 +97,10 @@ What sleep factors do I normally score highest on? Lowest?
 | Timing          | 56.72 | 1.00 | 100.00|
 | Restfulness     | 53.07 | 21.00| 82.00|
 
-I score highest on latency and efficiency. I score lowest on timing and restfulness.
+My highest average on sleep contributors is latency and efficiency. Timing and restfulness are the lowest. My max restfulness was only 82 while every other contributor has maxes of 95+, so restfulness seems like the clear biggest issue.
+I've achieved scores of 95 or higher on every contributor, so if I can can improve my restfulness, it is possible for me to achieve a 95+ sleep score.
 
-What sleep contributors do I struggle with the most?
+#### What sleep contributors do I struggle with consistently?
 | Contributor    |Percent Score 0-20 | Percent Score 21-40 | Percent Score 41-60 | Percent Score 61-80 | Percent Score 81-100 |
 |----------------|------------|-------------|-------------|-------------|--------------|
 | Latency        | 0.00       | 0.55        | 3.85        | 21.43       | 74.18        |
@@ -106,23 +111,29 @@ What sleep contributors do I struggle with the most?
 | Total Sleep    | 0.00       | 0.55        | 6.59        | 73.08       | 19.78        |
 | Restfulness    | 0.00       | 15.93       | 58.52       | 25.27       | 0.27         |
 
+Total sleep, efficiency, and latency are not the main problems as more than 90% of their values fall into the 4th and 5th quintiles. Timing and restfulness are the biggest issue as less than 50% of the values fall
+into the 4th and 5th quintile and also timing is the only contributor that appears in the 1st quintile with about 5% of its values being there. None of the contributors appear in the 5th quintile more than 80% of the time which shows I still need
+to get better with everything.
 
-What readiness factors do I normally score highest on? Lowest?
+#### What readiness factors do I normally score highest on? Lowest?
 | Contributor           | Avg   | Min  | Max  |
 |-----------------------|-------|------|------|
-| Previous Day Activity  | 79.57 | 1.00 | 99.00|
-| Activity Balance       | 82.69 | 44.00| 100.00|
-| HRV Balance            | 79.12 | 1.00 | 100.00|
-| Recovery Index         | 91.75 | 1.00 | 100.00|
-| Previous Night         | 69.71 | 39.00| 92.00|
-| Sleep Balance          | 76.81 | 47.00| 98.00|
 | Body Temperature       | 97.57 | 66.00| 100.00|
-| Readiness Score        | 80.76 | 56.00| 91.00|
+| Recovery Index         | 91.75 | 1.00 | 100.00|
 | Resting Heart Rate     | 85.00 | 10.00| 100.00|
+| Activity Balance       | 82.69 | 44.00| 100.00|
+| Readiness Score        | 80.76 | 56.00| 91.00|
+| Previous Day Activity  | 79.57 | 1.00 | 99.00|
+| HRV Balance            | 79.12 | 1.00 | 100.00|
+| Sleep Balance          | 76.81 | 47.00| 98.00|
+| Previous Night         | 69.71 | 39.00| 92.00|
+
+My readiness factors are much better than those of my sleep data. Every average is above 75 other than previous night sleep, and all of them have maxes of 92, meaning it is possible for me to get consistent readiness scores in
+the high 90s if I put everything together. My lowest contributor is previous night at 69.87 and highest is body temperature at 97.56
 
 
-What readiness contributors do I struggle with the most?
-| Contributor           | Percent Score 0-20 | Percent Score 21-40 | Percent Score 41-60 | Percent Score 61-80 | Percent Score 81-100 |
+#### What readiness contributors do I struggle with consistently?
+| Contributor    |Percent Score 0-20 | Percent Score 21-40 | Percent Score 41-60 | Percent Score 61-80 | Percent Score 81-100 |
 |-----------------------|------------|-------------|-------------|-------------|--------------|
 | Previous Day Activity  | 1.65       | 1.37        | 3.30        | 27.47       | 63.19        |
 | Activity Balance       | 0.00       | 0.00        | 6.59        | 26.37       | 65.11        |
@@ -133,30 +144,36 @@ What readiness contributors do I struggle with the most?
 | Body Temperature       | 0.00       | 0.00        | 0.00        | 2.20        | 97.80        |
 | Resting Heart Rate     | 0.27       | 1.65        | 8.79        | 19.78       | 69.51        |
 
+There isn't any clear readiness contributor that I struggle with the most. Every single one has at least 80% of their values in the 4th and 5th quintile. HRV_balance has about 18% of its values in the lower three quintiles so there is area for
+improvement there. Also, my sleep related factors (sleep balance and previous night) are the only two factors without 60% of their values in the 5th quintile. The only way to improve those factors is to improve my sleep which I can do my addressing the
+findings from my other queries.
 
-What is sleep like after high activity?
+#### What is sleep like after high activity?
 | Activity Type | Avg Score | Std Score |
 |---------------|-----------|-----------|
 | Low Activity  | 69.26     | 5.96      |
 | High Activity | 71.28     | 6.54      |
 
+I do seem to sleep slightly better when I have a day where I exert high activity. Being more highly active might help me sleep better.
 
 ### Sleep Streaks:
 
 
-What is my average sleep the day after a good sleep score? The day after a bad one?
+#### What is my average sleep the day after a good sleep score? The day after a bad one?
 | Sleep Quality | Avg Score | Std Score |
 |---------------|-----------|-----------|
 | Good Sleep    | 70.01     | 5.34      |
 | Bad Sleep     | 68.55     | 6.47      |
 
+It seems that I marginally sleep better on average the next day when I have sleep score of over 70, but not enough
+of a difference to draw conclusions.
 
-Longest streak of good sleep scores?
+#### Longest streak of good sleep scores?
 | Streak Length |
 |---------------|
 | 11            |
 
-Longest streak of good readiness scores?
+#### Longest streak of good readiness scores?
 | Streak Length |
 |---------------|
 | 9             |
@@ -165,13 +182,13 @@ Longest streak of good readiness scores?
 ### Timing and Sleep:
 
 
-Average time I go to sleep and wake up at?
+#### Average time I go to sleep and wake up at?
 | Bedtime Start        | Bedtime End          |
 |----------------------|----------------------|
 | 12:13:44.316804      | 08:54:32.278237      |
 
 
-Sleep Score based on what time I went to bed?
+#### Sleep Score based on what time I went to bed?
 | Bedtime Hour | Count | Bedtime End      | Avg Sleep Score | Std Sleep Score | Avg Duration |
 |--------------|-------|------------------|-----------------|-----------------|--------------|
 | 22           | 28    | 07:49:39.964286  | 75.39           | 5.70            | 7.14         |
@@ -181,9 +198,16 @@ Sleep Score based on what time I went to bed?
 | 2            | 9     | 10:05:57.333333  | 63.67           | 6.00            | 6.22         |
 | 3            | 4     | 11:30:38.5       | 61.25           | 7.76            | 6.25         |
 
+This is some very interesting data. For one I'm surprised that I only went to sleep after 2am a total of 13 times. I don't want to go to sleep later than 1 at all, but that used to be a bigger issue for me, so I'm proud of this information.
+
+It’s clear that the earlier I go to sleep, the better the sleep score on average. The difference between each of the hours is about 4 points until after 1am where there isn't much difference. Which shows that just 1 hour can make a big difference in my sleep.
+
+What's really interesting is my duration also increases the earlier I go to sleep. The sleep score was already going to be higher due to scoring better with the timing contributor, but it's very interesting that I'm sleeping longer on average too. Really shows that
+I need to go to sleep earlier.
 
 
-## Analysis:
+
+## Conclusion:
 
 Before doing this project I knew that I had a lot of room for improvement when it came to my sleep, but now I know what areas to focus on. Timing is clearly a big weakness for me. I’m consistently scoring low on that metric, and the data shows that not only do I score better on my sleep when I go to sleep earlier, but I also sleep longer on average too. I need to get myself to start going to sleep between 10pm - 11pm consistently. 
   
