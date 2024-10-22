@@ -150,13 +150,13 @@ There isn't any clear readiness contributor that I struggle with the most. Every
 improvement there. Also, my sleep related factors (sleep balance and previous night) are the only two factors without 60% of their values in the 5th quintile. The only way to improve those factors is to improve my sleep which I can do my addressing the
 findings from my other queries.
 
-#### What is sleep like after high activity?
+#### What is sleep like day after high activity?
 | Activity Type | Avg Score | Std Score |
 |---------------|-----------|-----------|
 | Low Activity  | 69.26     | 5.96      |
 | High Activity | 71.28     | 6.54      |
 
-I do seem to sleep slightly better when I have a day where I exert high activity. Being more highly active might help me sleep better.
+It seems that I do sleep slightly better on days where I exert high activity. Being more highly active might help me sleep better.
 
 ### Sleep Streaks:
 
